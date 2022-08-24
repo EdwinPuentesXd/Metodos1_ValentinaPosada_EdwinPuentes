@@ -1,2 +1,0 @@
-# EdwinPuentesXd-Metodos1_ValentinaPosada_EdwinPuentes
-# EdwinPuentesXd-Metodos1_ValentinaPosada_EdwinPuentes
