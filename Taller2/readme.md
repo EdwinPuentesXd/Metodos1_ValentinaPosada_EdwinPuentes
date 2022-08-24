@@ -1,1 +1,1 @@
-Esta es la carpeta para el taller2
+Carpeta para Taller 2 (Metodos Computacionales 1)
