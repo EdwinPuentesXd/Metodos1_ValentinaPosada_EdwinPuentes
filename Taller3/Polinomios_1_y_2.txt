@@ -1,0 +1,25 @@
+1. ¿De qué tipo es el error asociado a la estimación de raıces usando el método de Newton-Raphson?
+
+Lo primero que debemos de tener en cuenta es que para hacer este ejercicio utilizamos la derivada central.
+A diferencia de la derivada progresiva o regresiva, la derivada central tiene un error de truncamiento de 
+orden O(h^2) en la estimacion, esto quiere decir que su error de truncamiento va a ser menor y va a tener 
+mayor orden de precisión.
+
+Por otro lado, al momento de implementar la funcion que me va a retornar la derivada central de los 
+polinomios, estamos fijando h= 1e-6. Entre mas pequeño sea el valor de h mayor precision se va a obtener.
+
+En conclusion, el error asociado a la estimación de raices usando el metodo de Newton-Raphson es un error 
+de truncamiento. Estos errores se deben a la omisión de terminos en una serie que tiene un número infinito 
+de terminos. Es decir, que va a llegar un momento en el que el computador ya no me va entregar el resultado 
+real, sino una aproximación que dependera del valor h que le asigne a la función. 
+
+2. ¿Cómo ajustar la precisión para estimar raíces con el método de Newton-Raphson?
+
+Lo primero que podriamos hacer es asignarle la precision con la que queremos el resultado. Por ejemplo, 
+creamos una variable llamada error y la inicializamos en 1 (error=1), creamos una varieble llamada precision
+y la inicializamos dependiendo de la precision con la que queremos el resultado (precicion=1e-5). Ahora vamos 
+a crear un ciclo en el que el valor del error va ir cambiando y solo se va a detener cuando el error sea menor
+o igual a la precision que establecimos. 
+
+Adicionalmente, todo lo mencionado anteriormente de que se utilizo la derivada central y h=1e-6 tambien
+contribuyen con la precision ya que son maneras en las que se esta reduciendo el error. 
