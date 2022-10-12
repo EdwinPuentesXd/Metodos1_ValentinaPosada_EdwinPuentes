@@ -13,17 +13,10 @@ def multiplicacion(A,B):
     
     if N==R:
 
-        for i in range(0,3):
-            for j in range(0,3):
-                for k in range(0,3):
+        for i in range(N):
+            for j in range(N):
+                for k in range(N):
                         
                     C[i][j] += A[i][k]*(B[k][j])
         
         return C
-                
-
-           
-  
-
-    
-    
