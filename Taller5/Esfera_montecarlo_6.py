@@ -33,6 +33,7 @@ fig = plt.figure(figsize=(8,8))
 ax=fig.add_subplot(1,1,1, projection ="3d")
 
 ax.set_xlim3d(-1, 1)
+plt.xlabel("x")
 ax.set_ylim3d(-1, 1)
 ax.set_zlim3d(-1, 1)
 

@@ -1,0 +1,5 @@
+De la gráfica podemos concluir que las tres rectas nunca se vana intersectar geométricamente
+en un punto del espacio. Sin embargo, por el método de mínimos cuadrados pudimos encontrar un 
+punto del espacio que es común a las tres rectas, es decir, que este punto va a ser el mas 
+cercano a las tres rectas al mismo tiempo. La distancia que hay entre este punto y las tres 
+rectas va a ser la minima.
